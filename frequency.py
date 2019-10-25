@@ -1,3 +1,7 @@
+# This is a program that asks the user to input a frequency and then outputs which part of the
+# electromagnetic spectrum the frequency belongs to.
+# Ask the user to input the frequency.
+
 frequency = float(input("What is the frequency of the radiation? "))
 
 if frequency<3e9:
