@@ -20,7 +20,7 @@ while keep_going == 'y' or keep_going == 'Y':
               format(commission, '.2f'),sep='')
     elif sales>5000:
 
-        # Calculate the commission with a £50 bonus is sales are over £5000
+        # Calculate the commission with a £50 bonus if sales are over £5000
         commission = (sales * comm_rate/100) + bonus_comm
 
         # Display the commission with bonus.
